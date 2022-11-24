@@ -121,3 +121,18 @@ si numOpc = 1 entonces {
 	}
 	return temperatura
 }
+
+<h3>Some Geometry</h3>
+
+1. Solicitar el tipo de geometría que se desea calcular su volumen
+	A. Cubo 
+	B. Pirámide 
+	C. Esfera
+	
+2. Válidar los datos ingresados sean válidos
+
+4. Si la geometría es un cubo solicitar tamaño de los lados y devolver lado elevado a la 3
+
+6. Si la geometría es una Pirámide se solicita su altura, longitud de base, ancho de base y se devuelve 1/3 * longitudBase × anchoBase × altura
+
+8. Si la geometría es una esfera se solicitan el radio y se devuelve (4/3)π * radio elevado a la 3
