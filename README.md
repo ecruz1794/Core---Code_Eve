@@ -71,7 +71,7 @@ crearPizza(masa, infoPizza, ingredientesEsp){
  - Vertir ingredientes especiales, iniciando por la salsa, el queso (En caso que el usuario no solicitara alguno se omiten)
  - Agregar el resto de ingredientes especiales solicitados por el usuario según la lista
  -  Regresar la pizza
- - 
+ 
 }
 
 //Se va a hornear la pizza conforme la duración y temperatura según su clase dependiendo su tamaño, no va a ser el mismo tiempo de cocción para una pizza individual que para una pizza grande//
@@ -80,6 +80,7 @@ HornearPizza (pizza, tamPizza){
 - Colocar la pizza en el horno precalentado
 - Hornear pizza durante pizza.DuracionHorno(tamPizza) a la temperatura de pizza.Temperatura(tamPizza)
 - Devolver pizza
+
 }
 
 // Se va a cortar la pizza según el número de slides del tamaño de la pizza//
@@ -96,5 +97,5 @@ delivery.pizza(pizza, dir){
 - Llevar la pizza a la dirección entregada en dir
 - Tocar el timbre
 - Devolver true si la pizza es recibida, sino false
--
+
 }
