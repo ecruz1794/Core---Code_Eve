@@ -16,25 +16,10 @@ Core - Code Bootcamp | Eve Workspace
 
 | Declarar Ingredientes Masa | Tamaño Pizza | Ingredientes Especiales |
 | -------------------------- | ------------- |------------------------|
-|Harina | Individual | 
- - Aceite
- - Agua
- - Levadura
- - Sal
- - Azúcar
-
-
-  - 
-  - Pequeña
-  - Grande
-  - Familiar
-
-:
- - Pepperonni
- - Salsa tomate
- - Hongos
- - Albahaca
- - Cebolla
- - Jamón
- - Queso
- - 
+| Harina | Individual | Pepperonni |
+| Aceite | Pequeña | Hongos |
+| Agua | Grande | Albahaca |
+| Levadura | Familiar | Cebolla |
+| Sal | #Slides | Jamón |
+| Azúcar | - | Queso|
+ 
