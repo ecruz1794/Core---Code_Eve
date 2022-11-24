@@ -100,4 +100,25 @@ delivery.pizza(pizza, dir){
 
 }
 
-<h3>Pizza</h3>
+<h3>Hot N Cold</h3>
+# Hot N Cold
+
+- Input opc = Buenas! Que tipo de conversión desea realizar:
+	1. Celcius a Fahrenheit
+	2. Fahrenheit a Celcius
+- Válidar que la opción ingresada sea correcta sino volver a solicitarlo
+- Input numTemp = Ingrese el valor a convertir.
+- resultado = convertirValor( opc, numTemp )
+- Print "El valor " + numTemp + " convertido es de: " + resultado. 
+
+//Función para conversión del valor//
+
+convertirValor( numOpc, numTemp){
+int temperatura = 0
+si numOpc = 1 entonces {
+		temperatura = 	( numTemp * 9/5 ) + 32
+	} else {
+		temperatura = ( numTemp − 32) × 5/9 
+	}
+	return temperatura
+}
