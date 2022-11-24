@@ -14,21 +14,22 @@ Core - Code Bootcamp | Eve Workspace
 
 <h3>Pizza</h3>
 
-Declarar Ingredientes Masa:
- - Harina
+| Declarar Ingredientes Masa | Tamaño Pizza | Ingredientes Especiales |
+| -------------------------- | ------------- |------------------------|
+|Harina | Individual | 
  - Aceite
  - Agua
  - Levadura
  - Sal
  - Azúcar
 
-Tamaño Pizza:
-  - Individual
+
+  - 
   - Pequeña
   - Grande
   - Familiar
 
-Ingredientes Especiales:
+:
  - Pepperonni
  - Salsa tomate
  - Hongos
