@@ -14,4 +14,18 @@ Core - Code Bootcamp | Eve Workspace
 
 <h3>Pizza</h3>
 
+Declarar Ingredientes:
+ - Harina
+ - Aceite
+ - Agua
+ - Levadura
+ - Sal
+ - Azúcar
+
+Tamaño Pizza:
+  - Individual
+  - Pequeña
+  - Grande
+  - Familiar
+
 
