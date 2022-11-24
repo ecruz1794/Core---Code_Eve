@@ -14,7 +14,7 @@ Core - Code Bootcamp | Eve Workspace
 
 <h3>Pizza</h3>
 
-// Declaración de variables
+// Declaración de variables//
 | Declarar Ingredientes Masa | Tamaño Pizza | Ingredientes Especiales |
 | -------------------------- | ------------- |------------------------|
 | Harina | Individual | Pepperonni |
@@ -26,7 +26,7 @@ Core - Code Bootcamp | Eve Workspace
  
  - Crear clase pizza, está va a contener los ingredientes de la pizza, está va a heredar a las pizzas según su tamaño para que contengan la cantidad especifica de ingredientes para crear la masa y agregar ingredientes.
  
- // Ingreso de datos
+ // Ingreso de datos //
  
 *** Si el tamaño de la pizza es personalizado se va a válidar, se va a crear la clase pizza ajustandose a la personalización, no lo agregue porque se extendería ***
 Input int tamPizza: "Bienvenido a Pizza a su gusto. Favor ingrese el tamaño de la pizza que desea:" | Individual | Pequeña | Grande | Personalizado |
@@ -34,7 +34,7 @@ Input lista ingEspecial: "Por favor, seleccione los ingredientes que desea en su
 *** Hacer validación que la cantidad de ingredientes no sean excesivos para no ablandar la masa, sino enviar mensaje y solicitar nuevamente los Ingredientes Especiales ***
 Input direccion = "Favor ingrese su dirección"
 
-//Llamamiento funciones y proceso
+//Llamamiento funciones y proceso//
 
 - Iniciar precalentado horno y molde
 - Iniciar masa = creacionMasa(tamPizza)
