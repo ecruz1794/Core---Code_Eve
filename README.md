@@ -29,9 +29,11 @@ Core - Code Bootcamp | Eve Workspace
  // Ingreso de datos //
  
 *** Si el tamaño de la pizza es personalizado se va a válidar, se va a crear la clase pizza ajustandose a la personalización, no lo agregue porque se extendería ***
+
 Input int tamPizza: "Bienvenido a Pizza a su gusto. Favor ingrese el tamaño de la pizza que desea:" | Individual | Pequeña | Grande | Personalizado |
 Input lista ingEspecial: "Por favor, seleccione los ingredientes que desea en su pizza:" | Pepperonni | Hongos | Albahaca | Cebolla | Jamón | Queso |
 *** Hacer validación que la cantidad de ingredientes no sean excesivos para no ablandar la masa, sino enviar mensaje y solicitar nuevamente los Ingredientes Especiales ***
+
 Input direccion = "Favor ingrese su dirección"
 
 //Llamamiento funciones y proceso//
@@ -59,6 +61,7 @@ creacionMasa(infoPizza){
  - Agregar harina espolvoreada en la masa estirada
  - Dejar reposar la masa
  - Devolver masa estirada
+ 
 }
 
 //Crear la pizza agregando los ingredientes especiales, desde las salsas, queso, hongos etc según el usuario haya solicitado, ingredientesEspeciales es un array/lista //
@@ -68,9 +71,10 @@ crearPizza(masa, infoPizza, ingredientesEsp){
  - Vertir ingredientes especiales, iniciando por la salsa, el queso (En caso que el usuario no solicitara alguno se omiten)
  - Agregar el resto de ingredientes especiales solicitados por el usuario según la lista
  -  Regresar la pizza
+ - 
 }
 
-//Se va a hornear la pizza conforme la duración y temperatura según su clase dependiendo su tamaño, no va a ser el mismo tiempo de cocción para una pizza individual que para una pizza grande.
+//Se va a hornear la pizza conforme la duración y temperatura según su clase dependiendo su tamaño, no va a ser el mismo tiempo de cocción para una pizza individual que para una pizza grande//
 
 HornearPizza (pizza, tamPizza){
 - Colocar la pizza en el horno precalentado
@@ -83,11 +87,14 @@ HornearPizza (pizza, tamPizza){
 cortarSlides( pizza, numSlides){
 - Cortar pizza en numSlides proporcionado
 - Devolver pizza
+
 }
 
-// Entrega de la pizza usando la dirección
+// Entrega de la pizza usando la dirección//
+
 delivery.pizza(pizza, dir){
 - Llevar la pizza a la dirección entregada en dir
 - Tocar el timbre
 - Devolver true si la pizza es recibida, sino false
+-
 }
