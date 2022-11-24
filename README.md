@@ -5,10 +5,11 @@ Core - Code Bootcamp | Eve Workspace
 
 <h2>Week 01</h2>
 
-[1. Pizza](https://www.google.com)
-2. Hot N Cold
-3. Some Geometry
--
+[1. Pizza](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#pizza)
+
+[2. Hot N Cold](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#hot-n-cold)
+
+[3. Some Geometry](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
 ----------------------------------------------
 
