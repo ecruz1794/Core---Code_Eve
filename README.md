@@ -42,9 +42,9 @@ Input direccion = "Favor ingrese su dirección"
 - Print "Su pizza está en camino para entregar"+ pizza 
 - Hacer delivery.pizza(pizza)
 
-// Creación de funciones
+// Creación de funciones//
 
-//Mezclar ingredientes y formar bola de masa, se devuelve la masa estirada
+//Mezclar ingredientes y formar bola de masa, se devuelve la masa estirada//
 creacionMasa(infoPizza){
  - Colocar taza
  - Poner ingredientes (Estos toman la cantidad según su tamaño a partir de la clase heredada, harina, agua, aceite, levadura etc.)
