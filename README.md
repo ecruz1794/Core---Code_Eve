@@ -101,7 +101,6 @@ delivery.pizza(pizza, dir){
 }
 
 <h3>Hot N Cold</h3>
-# Hot N Cold
 
 - Input opc = Buenas! Que tipo de conversión desea realizar:
 	1. Celcius a Fahrenheit
