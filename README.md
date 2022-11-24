@@ -30,6 +30,7 @@ Core - Code Bootcamp | Eve Workspace
  
 Input int tamPizza: "Bienvenido a Pizza a su gusto. Favor ingrese el tamaño de la pizza que desea:" | Individual | Pequeña | Grande | Personalizado |
 Input lista ingEspecial: "Por favor, seleccione los ingredientes que desea en su pizza:" | Pepperonni | Hongos | Albahaca | Cebolla | Jamón | Queso |
+*** Hacer validación que la cantidad de ingredientes no sean excesivos para no ablandar la masa, sino enviar mensaje y solicitar nuevamente los Ingredientes Especiales ***
 Input direccion = "Favor ingrese su dirección"
 
 //Llamamiento funciones y proceso
@@ -42,9 +43,23 @@ Input direccion = "Favor ingrese su dirección"
 - Hacer delivery.pizza(pizza)
 
 // Creación de funciones
+
+//Mezclar ingredientes y formar bola de masa, se devuelve la masa estirada
 creacionMasa(infoPizza){
  - Colocar taza
- - Poner ingredientes (Estos toman la cantidad según su tamaño a partir de la clase heredada)
-  1.  
+ - Poner ingredientes (Estos toman la cantidad según su tamaño a partir de la clase heredada, harina, agua, aceite, levadura etc.)
+ - Mezclar ingredientes
+ - Amasar la masa
+ - Hacer bola de masa y estirar
+ - Cepillar la masa con el aceite
+ - Agregar harina espolvoreada en la masa estirada
+ - Dejar reposar la masa
+ - Devolver masa estirada
+}
+
+creacionMasa(masa, infoPizza, ingredientesEsp){
+ - Tomar la masa estirada
+ - Vertir ingredientes especiales, iniciando por la salsa, el queso y luego el resto
+ 
 }
 
