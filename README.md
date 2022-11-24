@@ -5,7 +5,7 @@ Core - Code Bootcamp | Eve Workspace
 
 <h2>Week 01</h2>
 
-1. Pizza
+[1. Pizza](https://www.google.com)
 2. Hot N Cold
 3. Some Geometry
 -
