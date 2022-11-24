@@ -6,7 +6,7 @@ Core - Code Bootcamp | Eve Workspace
 <h2>Week 01</h2>
 
 1. Pizza
--
+2. Hot N Cold
 -
 -
 
@@ -99,3 +99,5 @@ delivery.pizza(pizza, dir){
 - Devolver true si la pizza es recibida, sino false
 
 }
+
+<h3>Pizza</h3>
