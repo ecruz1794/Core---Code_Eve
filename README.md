@@ -23,3 +23,4 @@ Core - Code Bootcamp | Eve Workspace
 | Sal | #Slides | Jamón |
 | Azúcar | - | Queso|
  
+Input tamPizza: Bienvenido a Pizza a su gusto. Favor ingrese el tamaño de la pizza que desea: | Individual | Pequeña | Grande | Personalizado |
