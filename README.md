@@ -24,7 +24,7 @@ Core - Code Bootcamp | Eve Workspace
 | Sal | #Slides | Jamón |
 | Azúcar | - | Queso|
  
- - Crear clase pizza, está va a contener los ingredientes de la pizza, está va a heredar a las pizzas según su tamaño para que contengan la cantidad especifica de ingredientes para crear la masa y agregar ingredientes.
+ *** Crear clase pizza, está va a contener los ingredientes de la pizza, está va a heredar a las pizzas según su tamaño para que contengan la cantidad especifica de ingredientes para crear la masa y agregar ingredientes ***
  
  // Ingreso de datos //
  
