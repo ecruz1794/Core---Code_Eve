@@ -121,6 +121,7 @@ delivery.pizza(pizza, dir){
 - Print "El valor " + numTemp + " convertido es de: " + resultado. 
 
 >//Función para conversión del valor//
+
 convertirValor( numOpc, numTemp){
 
 int temperatura = 0
@@ -170,7 +171,7 @@ Print "El número dado es" + parImpar
 >// Funcion para evaluar el número en par o impar //
 evaluarNum(numEvaluar){
 
-If(numEvaluar/2 == 0{
+If ( numEvaluar/2 == 0 ){
 -	return "Par"
 
 }else{
