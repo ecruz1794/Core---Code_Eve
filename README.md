@@ -35,7 +35,7 @@ Core - Code Bootcamp | Eve Workspace
  
  // Ingreso de datos //
  
-*** Si el tamaño de la pizza es personalizado se va a válidar, se va a crear la clase pizza ajustandose a la personalización, no lo agregue porque se extendería ***
+>*** Si el tamaño de la pizza es personalizado se va a válidar, se va a crear la clase pizza ajustandose a la personalización, no lo agregue porque se extendería ***
 
 Input int tamPizza: "Bienvenido a Pizza a su gusto. Favor ingrese el tamaño de la pizza que desea:" | Individual | Pequeña | Grande | Personalizado |
 Input lista ingEspecial: "Por favor, seleccione los ingredientes que desea en su pizza:" | Pepperonni | Hongos | Albahaca | Cebolla | Jamón | Queso |
@@ -43,7 +43,7 @@ Input lista ingEspecial: "Por favor, seleccione los ingredientes que desea en su
 
 Input direccion = "Favor ingrese su dirección"
 
-//Llamamiento funciones y proceso//
+>//Llamamiento funciones y proceso//
 
 - Iniciar precalentado horno y molde
 - Iniciar masa = creacionMasa(tamPizza)
@@ -54,9 +54,9 @@ Input direccion = "Favor ingrese su dirección"
 - Hacer entrega = delivery.pizza(pizza, direccion)
 - Sí entrega es igual a 1 imprimir "Entrega exitosa! Gracias por su compra, provecho!", sino imprimir "Falló entrega, favor comuniquese con el proveedor". 
 
-// Creación de funciones//
+>// Creación de funciones//
 
-//Mezclar ingredientes y formar bola de masa, se devuelve la masa estirada//
+>//Mezclar ingredientes y formar bola de masa, se devuelve la masa estirada//
 
 creacionMasa(infoPizza){
  - Colocar taza
@@ -81,7 +81,7 @@ crearPizza(masa, infoPizza, ingredientesEsp){
  
 }
 
-//Se va a hornear la pizza conforme la duración y temperatura según su clase dependiendo su tamaño, no va a ser el mismo tiempo de cocción para una pizza individual que para una pizza grande//
+>//Se va a hornear la pizza conforme la duración y temperatura según su clase dependiendo su tamaño, no va a ser el mismo tiempo de cocción para una pizza individual que para una pizza grande//
 
 HornearPizza (pizza, tamPizza){
 - Colocar la pizza en el horno precalentado
@@ -90,7 +90,7 @@ HornearPizza (pizza, tamPizza){
 
 }
 
-// Se va a cortar la pizza según el número de slides del tamaño de la pizza//
+>// Se va a cortar la pizza según el número de slides del tamaño de la pizza//
 
 cortarSlides( pizza, numSlides){
 - Cortar pizza en numSlides proporcionado
@@ -98,7 +98,7 @@ cortarSlides( pizza, numSlides){
 
 }
 
-// Entrega de la pizza usando la dirección//
+>// Entrega de la pizza usando la dirección//
 
 delivery.pizza(pizza, dir){
 - Llevar la pizza a la dirección entregada en dir
@@ -119,16 +119,16 @@ delivery.pizza(pizza, dir){
 - resultado = convertirValor( opc, numTemp )
 - Print "El valor " + numTemp + " convertido es de: " + resultado. 
 
-//Función para conversión del valor//
+>//Función para conversión del valor//
 
 convertirValor( numOpc, numTemp){
 int temperatura = 0
 si numOpc = 1 entonces {
-		temperatura = 	( numTemp * 9/5 ) + 32
-	} else {
-		temperatura = ( numTemp − 32) × 5/9 
-	}
-	return temperatura
+-		temperatura = 	( numTemp * 9/5 ) + 32
+-	} else {
+-		temperatura = ( numTemp − 32) × 5/9 
+-	}
+-	return temperatura
 }
 
 -------------------------------------------------------------
@@ -152,7 +152,7 @@ si numOpc = 1 entonces {
 
 <h3>Numbers</h3>
 
-// Diseñar algoritmo que identifique si el número ingresado es par o impar
+>// Diseñar algoritmo que identifique si el número ingresado es par o impar
 
 Input int num = "Ingrese el valor del número que desea evaluar"
 
@@ -160,13 +160,13 @@ string parImpar = evaluarNum(num)
 
 Print "El número dado es" + parImpar
 
-// Funcion para evaluar el número en par o impar //
+>// Funcion para evaluar el número en par o impar //
 
->evaluarNum(numEvaluar){
-	if(numEvaluar/2 == 0{
-		return "Par"
-	}else{
-		return "Impar"
-		}
+evaluarNum(numEvaluar){
+-	if(numEvaluar/2 == 0{
+-		return "Par"
+-	}else{
+-		return "Impar"
+-		}
 }
 
