@@ -155,16 +155,18 @@ si numOpc = 1 entonces {
 // Diseñar algoritmo que identifique si el número ingresado es par o impar
 
 Input int num = "Ingrese el valor del número que desea evaluar"
+
 string parImpar = evaluarNum(num)
+
 Print "El número dado es" + parImpar
 
 // Funcion para evaluar el número en par o impar //
 
-evaluarNum(numEvaluar){
-	if(numEvaluar/2 == 0{
-		return "Par"
-	}else{
-		return "Impar"
-		}
-}
+>evaluarNum(numEvaluar){
+>	if(numEvaluar/2 == 0{
+>		return "Par"
+>	}else{
+>		return "Impar"
+>		}
+>}
 
