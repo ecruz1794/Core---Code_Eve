@@ -127,11 +127,15 @@ int temperatura = 0
 
 si numOpc = 1 entonces {
 
-temperatura = 	( numTemp * 9/5 ) + 32
+-	temperatura = 	( numTemp * 9/5 ) + 32
+
 } else {
--		temperatura = ( numTemp − 32) × 5/9 
--	}
+-	temperatura = ( numTemp − 32) × 5/9 
+
+	}
+	
 -	return temperatura
+
 }
 
 -------------------------------------------------------------
