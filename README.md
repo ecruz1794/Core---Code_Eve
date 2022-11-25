@@ -11,6 +11,12 @@ Core - Code Bootcamp | Eve Workspace
 
 [3. Some Geometry](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
+[4. Numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+
+[5. Date of Birth](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+
+[6. Treasures](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+
 ----------------------------------------------
 
 <h3>Pizza</h3>
@@ -101,6 +107,8 @@ delivery.pizza(pizza, dir){
 
 }
 
+-------------------------------------------------------------------
+
 <h3>Hot N Cold</h3>
 
 - Input opc = Buenas! Que tipo de conversión desea realizar:
@@ -123,6 +131,8 @@ si numOpc = 1 entonces {
 	return temperatura
 }
 
+-------------------------------------------------------------
+
 <h3>Some Geometry</h3>
 
 1. Solicitar el tipo de geometría que se desea calcular su volumen
@@ -137,3 +147,24 @@ si numOpc = 1 entonces {
 6. Si la geometría es una Pirámide se solicita su altura, longitud de base, ancho de base y se devuelve 1/3 * longitudBase × anchoBase × altura
 
 8. Si la geometría es una esfera se solicitan el radio y se devuelve (4/3)π * radio elevado a la 3
+
+-------------------------------------------------------------------
+
+<h3>Numbers</h3>
+
+// Diseñar algoritmo que identifique si el número ingresado es par o impar
+
+Input int num = "Ingrese el valor del número que desea evaluar"
+string parImpar = evaluarNum(num)
+Print "El número dado es" + parImpar
+
+// Funcion para evaluar el número en par o impar //
+
+evaluarNum(numEvaluar){
+	if(numEvaluar/2 == 0{
+		return "Par"
+	}else{
+		return "Impar"
+		}
+}
+
