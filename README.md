@@ -199,4 +199,6 @@ Estamos en una habitación con tres cofres. Sabemos que al menos uno tiene un te
 
 ¿Qué cofres tienen tesoros?
 
-1. No hay tesoro, porque las afirmaciones se contradicen, pues todos los enunciados son mentira, y el enunciado del cofre derecho se contradice con la premisa que al menos uno tiene un tesoro.
+R/ Hay tesoro en el cofre izquierdo y el derecho, porque el enunciado del primero da a conocer que hay un tesoro en el medio, pero este es mentira por la premisa. El cofre derecho que solo uno tiene un tesoro, al ser mentira podemos concluir que dos pueden tener tesoro y sabemos que al menos uno debe tener. Por lo tanto, solo el del medio no tiene tesoro.
+
+
