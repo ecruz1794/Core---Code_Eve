@@ -162,11 +162,11 @@ Print "El número dado es" + parImpar
 
 >// Funcion para evaluar el número en par o impar //
 
-evaluarNum(numEvaluar){
--	if(numEvaluar/2 == 0{
--		return "Par"
--	}else{
--		return "Impar"
--		}
+1. evaluarNum(numEvaluar){
+		if(numEvaluar/2 == 0{
+			return "Par"
+		}else{
+			return "Impar"
+		}
 }
 
