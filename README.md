@@ -126,16 +126,14 @@ convertirValor( numOpc, numTemp){
 
 int temperatura = 0
 
-si numOpc = 1 entonces {
+If numOpc = 1 entonces {
 
 -	temperatura = 	( numTemp * 9/5 ) + 32
 
-} else {
+else
 -	temperatura = ( numTemp − 32) × 5/9 
-
-	}
 	
--	return temperatura
+return temperatura
 
 }
 
@@ -174,9 +172,8 @@ evaluarNum(numEvaluar){
 If ( numEvaluar/2 == 0 ){
 -	return "Par"
 
-}else{
+else
 -	return "Impar"
-	}
 
 }
 
