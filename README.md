@@ -13,7 +13,7 @@ Core - Code Bootcamp | Eve Workspace
 
 [4. Numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#numbers)
 
-[5. Date of Birth](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+[5. Date of Birth](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#date-of-birth)
 
 [6. Treasures](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
@@ -183,3 +183,13 @@ If ( numEvaluar/2 == 0 ){
 --------------------------------------------------------------------------------------
 
 <h3>Date Of Birth</h3> 
+
+1. dataBirth = "Ingrese el año de su nacimiento"
+2. dataYear = "Ingrese el año al cual quiere averigüar su edad"
+3. edad = dataYear - dataBirth
+4. Print "La edad que va a tener en el año " + dataYear + " es: " + edad
+5. Fin
+
+------------------------------------------------------------------------------------------
+
+<h3>Treasure</h3> 
