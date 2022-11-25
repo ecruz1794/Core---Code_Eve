@@ -15,7 +15,7 @@ Core - Code Bootcamp | Eve Workspace
 
 [5. Date of Birth](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#date-of-birth)
 
-[6. Treasures](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+[6. Treasures](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#treasure)
 
 ----------------------------------------------
 
@@ -190,3 +190,13 @@ else
 ------------------------------------------------------------------------------------------
 
 <h3>Treasure</h3> 
+
+Estamos en una habitación con tres cofres. Sabemos que al menos uno tiene un tesoro en él. Cada cofre tiene un mensaje, pero todos los mensajes son mentiras.
+
+- Cofre izquierdo: El cofre del medio tiene un tesoro.
+- Cofre medio: Todos estos cofres tienen tesoros en ellos
+- Cofre derecho: Solo uno de estos cofres tiene tesoros.
+
+¿Qué cofres tienen tesoros?
+
+1. No hay tesoro, porque las afirmaciones se contradicen, pues todos los enunciados son mentira, y el enunciado del cofre derecho se contradice con la premisa que al menos uno tiene un tesoro.
