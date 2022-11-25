@@ -21,7 +21,7 @@ Core - Code Bootcamp | Eve Workspace
 
 <h3>Pizza</h3>
 
-// Declaración de variables//
+>// Declaración de variables//
 | Declarar Ingredientes Masa | Tamaño Pizza | Ingredientes Especiales |
 | -------------------------- | ------------- |------------------------|
 | Harina | Individual | Pepperonni |
@@ -31,15 +31,17 @@ Core - Code Bootcamp | Eve Workspace
 | Sal | #Slides | Jamón |
 | Azúcar | - | Queso|
  
- *** Crear clase pizza, está va a contener los ingredientes de la pizza, está va a heredar a las pizzas según su tamaño para que contengan la cantidad especifica de ingredientes para crear la masa y agregar ingredientes ***
+>*** Crear clase pizza, está va a contener los ingredientes de la pizza, está va a heredar a las pizzas según su tamaño para que contengan la cantidad especifica de ingredientes para crear la masa y agregar ingredientes ***
  
- // Ingreso de datos //
+>// Ingreso de datos //
  
 >*** Si el tamaño de la pizza es personalizado se va a válidar, se va a crear la clase pizza ajustandose a la personalización, no lo agregue porque se extendería ***
 
 Input int tamPizza: "Bienvenido a Pizza a su gusto. Favor ingrese el tamaño de la pizza que desea:" | Individual | Pequeña | Grande | Personalizado |
+
 Input lista ingEspecial: "Por favor, seleccione los ingredientes que desea en su pizza:" | Pepperonni | Hongos | Albahaca | Cebolla | Jamón | Queso |
-*** Hacer validación que la cantidad de ingredientes no sean excesivos para no ablandar la masa, sino enviar mensaje y solicitar nuevamente los Ingredientes Especiales ***
+
+>*** Hacer validación que la cantidad de ingredientes no sean excesivos para no ablandar la masa, sino enviar mensaje y solicitar nuevamente los Ingredientes Especiales ***
 
 Input direccion = "Favor ingrese su dirección"
 
@@ -55,7 +57,6 @@ Input direccion = "Favor ingrese su dirección"
 - Sí entrega es igual a 1 imprimir "Entrega exitosa! Gracias por su compra, provecho!", sino imprimir "Falló entrega, favor comuniquese con el proveedor". 
 
 >// Creación de funciones//
-
 >//Mezclar ingredientes y formar bola de masa, se devuelve la masa estirada//
 
 creacionMasa(infoPizza){
@@ -71,7 +72,7 @@ creacionMasa(infoPizza){
  
 }
 
-//Crear la pizza agregando los ingredientes especiales, desde las salsas, queso, hongos etc según el usuario haya solicitado, ingredientesEspeciales es un array/lista //
+>//Crear la pizza agregando los ingredientes especiales, desde las salsas, queso, hongos etc según el usuario haya solicitado, ingredientesEspeciales es un array/lista //
 
 crearPizza(masa, infoPizza, ingredientesEsp){
  - Tomar la masa estirada
@@ -163,10 +164,11 @@ Print "El número dado es" + parImpar
 >// Funcion para evaluar el número en par o impar //
 
 1. evaluarNum(numEvaluar){
-		if(numEvaluar/2 == 0{
-			return "Par"
-		}else{
-			return "Impar"
-		}
+-		if(numEvaluar/2 == 0{
+-			return "Par"
+-		}else{
+-			return "Impar"
+-		}
+
 }
 
