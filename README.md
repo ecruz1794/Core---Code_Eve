@@ -11,7 +11,7 @@ Core - Code Bootcamp | Eve Workspace
 
 [3. Some Geometry](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
-[4. Numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+[4. Numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#numbers)
 
 [5. Date of Birth](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
@@ -164,11 +164,16 @@ Print "El número dado es" + parImpar
 >// Funcion para evaluar el número en par o impar //
 
 1. evaluarNum(numEvaluar){
+
 If(numEvaluar/2 == 0{
 -	return "Par"
+
 }else{
 -	return "Impar"
-
 	}
+
 }
 
+--------------------------------------------------------------------------------------
+
+<h3>Date Of Birth</h3> 
