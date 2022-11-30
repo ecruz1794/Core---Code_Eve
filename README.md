@@ -44,6 +44,8 @@ Core - Code Bootcamp | Eve Workspace
 <h3>Pizza</h3>
 
 >// Declaración de variables//
+
+
 | Declarar Ingredientes Masa | Tamaño Pizza | Ingredientes Especiales |
 | -------------------------- | ------------- |------------------------|
 | Harina | Individual | Pepperonni |
