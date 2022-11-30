@@ -243,9 +243,28 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Que va primero, El Cereal o la Leche?</h3>
 
-/* Solución Diagrama de Flujo 
+** Solución Diagrama de Flujo **
 
 ![_Diagrama de flujo](https://user-images.githubusercontent.com/2061113/204883394-9b458f70-07fd-4f11-bfb8-32a6a5cca30c.jpeg)
 
-/* Solución Pseudocódigo
+** Solución Pseudocódigo **
+```
+- Inicio programa
+- crear bowl
+- Int firstAction = "Favor ingrese que desea primero. 1. Cereal  2. Leche"
+	If( firAction == 1) {
+   		1. Agregar Cereal al bowl;
+		2. Agregar Leche al bowl;
+	}else{
+		if(firstAction == 2){
+			1. Agregar leche al bowl;
+			2. Agregar cereal al bowl;
+		}else{
+			Print "Ingreso de datos incorrecto"
+			Volver a iniciar programa;
+		}
+	}
+	return bowl;	
+- Finalizar 
 
+```
