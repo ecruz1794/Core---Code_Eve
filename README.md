@@ -296,4 +296,7 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Register form</h3>
 
+![image](https://user-images.githubusercontent.com/2061113/204922846-040ac328-830c-4453-ab07-07fcfde32694.png)
+
+-----------------------------------------
 
