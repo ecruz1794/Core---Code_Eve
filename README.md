@@ -243,6 +243,9 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Que va primero, El Cereal o la Leche?</h3>
 
+/* Solución Diagrama de Flujo 
 
+![_Diagrama de flujo](https://user-images.githubusercontent.com/2061113/204883394-9b458f70-07fd-4f11-bfb8-32a6a5cca30c.jpeg)
 
+/* Solución Pseudocódigo
 
