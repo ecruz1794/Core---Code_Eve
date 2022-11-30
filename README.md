@@ -37,6 +37,10 @@ Core - Code Bootcamp | Eve Workspace
 
 ----------------------------------------------
 
+<h1>Semana 01</h1>
+
+___________________________________________________________________________________
+
 <h3>Pizza</h3>
 
 >// Declaración de variables//
@@ -218,5 +222,24 @@ Estamos en una habitación con tres cofres. Sabemos que al menos uno tiene un te
 ¿Qué cofres tienen tesoros?
 
 R/ Hay tesoro en el cofre izquierdo y el derecho, porque el enunciado del primero da a conocer que hay un tesoro en el medio, pero este es mentira por la premisa. El cofre derecho que solo uno tiene un tesoro, al ser mentira podemos concluir que dos pueden tener tesoro y sabemos que al menos uno debe tener. Por lo tanto, solo el del medio no tiene tesoro.
+
+========================================================================================
+
+<h1>Semana 02</h1>
+
+________________________________________________________________________________________
+
+<h3>Logic Problem</h3> 
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday".  
+Bob: "1 person studied math yesterday".  
+Charlie: "2 people studied math yesterday".  
+Dan: "3 people studied mathematics yesterday".  
+Eva: "4 people studied mathematics yesterday".
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+Bob es quién esta diciendo la verdad, porque si alguno de los otros dice la verdad produce contradicción en las premisas y lo que cada uno esta diciendo.
 
 
