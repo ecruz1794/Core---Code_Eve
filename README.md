@@ -19,6 +19,24 @@ Core - Code Bootcamp | Eve Workspace
 
 ----------------------------------------------
 
+<h2>Week 02</h2>
+
+[1. Logic problem](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#pizza)
+
+[2. Cereal vrs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#hot-n-cold)
+
+[3. Print my name](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+
+[4. Print my name & age](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#numbers)
+
+[5. Algorithm game](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#date-of-birth)
+
+[6. Mod](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#treasure)
+
+[7. Register form](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#treasure)
+
+----------------------------------------------
+
 <h3>Pizza</h3>
 
 >// Declaración de variables//
