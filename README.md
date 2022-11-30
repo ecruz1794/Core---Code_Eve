@@ -290,6 +290,8 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Mod</h3>
 
+![image](https://user-images.githubusercontent.com/2061113/204920562-0153e370-4592-4438-972b-72a4c42fa574.png)
+
 ----------------------------------------
 
 <h3>Register form</h3>
