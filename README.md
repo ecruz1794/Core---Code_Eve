@@ -25,15 +25,15 @@ Core - Code Bootcamp | Eve Workspace
 
 [2. Cereal vs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#que-va-primero-el-cereal-o-la-leche)
 
-[3. Print my name](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
+[3. Print my name](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#print-my-name)
 
-[4. Print my name & age](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#numbers)
+[4. Print my name & age](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#print-my-name--age)
 
-[5. Algorithm game](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#date-of-birth)
+[5. Algorithm game](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#algorithm-game)
 
-[6. Mod](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#treasure)
+[6. Mod](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#mod)
 
-[7. Register form](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#treasure)
+[7. Register form](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
 
 ----------------------------------------------
 
