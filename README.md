@@ -284,6 +284,8 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Algorithm game</h3>
 
+![image](https://user-images.githubusercontent.com/2061113/204917754-a8d82399-22fe-4458-ae75-e3271272226c.png)
+
 -----------------------------------------
 
 <h3>Mod</h3>
