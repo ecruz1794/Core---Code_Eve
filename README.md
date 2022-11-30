@@ -23,7 +23,7 @@ Core - Code Bootcamp | Eve Workspace
 
 [1. Logic problem](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#logic-problem)
 
-[2. Cereal vrs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#hot-n-cold)
+[2. Cereal vrs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#que-va-primero-el-cereal-o-la-leche)
 
 [3. Print my name](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
