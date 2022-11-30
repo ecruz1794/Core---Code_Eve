@@ -268,3 +268,26 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 --------------------------------------------------------------
 
+<h3>Print my name</h3>
+
+![myName](https://user-images.githubusercontent.com/2061113/204913686-87a7804e-09fd-4e1d-a800-2d8e63fd5bde.JPG)
+
+-----------------------------------------------------------------
+
+<h3>Print my name & age</h3>
+
+![image](https://user-images.githubusercontent.com/2061113/204913871-75611b05-6a5f-4e26-a736-41805117eca7.png)
+
+-----------------------------------------------------------------
+
+<h3>Algorithm game</h3>
+
+-----------------------------------------
+
+<h3>Mod</h3>
+
+----------------------------------------
+
+<h3>Register form</h3>
+
+
