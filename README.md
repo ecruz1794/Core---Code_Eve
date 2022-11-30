@@ -23,7 +23,7 @@ Core - Code Bootcamp | Eve Workspace
 
 [1. Logic problem](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#logic-problem)
 
-[2. Cereal vrs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#que-va-primero-el-cereal-o-la-leche)
+[2. Cereal vs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#que-va-primero-el-cereal-o-la-leche)
 
 [3. Print my name](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#some-geometry)
 
@@ -264,8 +264,7 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 - Finalizar 
 ```
 ** Solución Diagrama de Flujo **
-
-![_Diagrama de flujo](https://user-images.githubusercontent.com/2061113/204888254-4f2a802d-d325-4a78-b9fc-bc124f814e7f.png)
+![_Diagrama de flujo](https://user-images.githubusercontent.com/2061113/204888985-12099344-5758-4a64-9b69-61dbd1e6f0d8.png)
 
 --------------------------------------------------------------
 
