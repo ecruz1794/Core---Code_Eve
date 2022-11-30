@@ -21,7 +21,7 @@ Core - Code Bootcamp | Eve Workspace
 
 <h2>Week 02</h2>
 
-[1. Logic problem](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#pizza)
+[1. Logic problem](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#logic-problem)
 
 [2. Cereal vrs Milk](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#hot-n-cold)
 
@@ -227,18 +227,22 @@ R/ Hay tesoro en el cofre izquierdo y el derecho, porque el enunciado del primer
 
 <h1>Semana 02</h1>
 
-
-
 <h3>Logic Problem</h3> 
 
 > The teacher asks his 5 students if they studied mathematics yesterday.
+> 
 > Alice: "Nobody studied math yesterday".  
 > Bob: "1 person studied math yesterday".  
 > Charlie: "2 people studied math yesterday".  
 > Dan: "3 people studied mathematics yesterday".  
 > Eva: "4 people studied mathematics yesterday".
+> 
 > The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
 
 Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros dice la verdad produce contradicción en las premisas y lo que cada uno esta diciendo.
+
+<h3>Que va primero, El Cereal o la Leche?</h3>
+
+
 
 
