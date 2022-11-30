@@ -266,5 +266,4 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 	}
 	return bowl;	
 - Finalizar 
-
 ```
