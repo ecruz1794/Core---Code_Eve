@@ -37,10 +37,9 @@ Core - Code Bootcamp | Eve Workspace
 
 [7. Truth Tables](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#truth-tables)
 
-[7. Boolean results](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
+[7. Boolean results](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#boolean-results)
 
-[7. Identify odd and even numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
-
+[7. Identify odd and even numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#identify-odd-and-even-numbers)
 
 ----------------------------------------------
 
@@ -332,6 +331,16 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Boolean results</h3>
 
+```
+Algoritmo boolean
+	a <- 5 == 3		// output: False | Compara si '5' es igual a '3'
+	b <- 4 <> 3		// output: True | Compara si '4' es diferente a '3'
+	c <- 7 > 7		// output: False | Compara si '7' es mayor a '7'
+	d <- 4 < 4		// output: False | Compara si '4' es menor a '4'
+	e <- 100 <= 90		// output: False | Compara si '100' es menor o igual a '90'
+	f <- 40 >= 40		// output: True | Compara si '40' es mayor o igual a '40'
+FinAlgoritmo
+```
 -----------------------------------------
 
 <h3>Identify odd and even numbers</h3>
