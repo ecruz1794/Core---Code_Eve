@@ -35,6 +35,13 @@ Core - Code Bootcamp | Eve Workspace
 
 [7. Register form](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
 
+[7. Truth Tables](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#truth-tables)
+
+[7. Boolean results](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
+
+[7. Identify odd and even numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
+
+
 ----------------------------------------------
 
 <h1>Semana 01</h1>
@@ -302,9 +309,9 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 
 <h3>Truth tables</h3>
 
-| Remember that AND can be represented by & | 
-| Remember that OR can be represented by | |
-| Remember that NOT can be represented by ~| 
+- Remember that AND can be represented by & 
+- Remember that OR can be represented by | 
+- Remember that NOT can be represented by ~| 
 
 1. T & T = T ✅
 2. T & F = F ✅
@@ -320,3 +327,11 @@ Solución: Bob es quién esta diciendo la verdad, porque si alguno de los otros 
 12. (T | F ) & (F | F) = T ❌
 13. ~((T | F ) & (F | F)) & F = T ✅
 14. ~((T | F ) & (F | F)) & T = F ✅
+
+-----------------------------------------
+
+<h3>Boolean results</h3>
+
+-----------------------------------------
+
+<h3>Identify odd and even numbers</h3>
