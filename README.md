@@ -344,3 +344,17 @@ FinAlgoritmo
 -----------------------------------------
 
 <h3>Identify odd and even numbers</h3>
+
+```
+Proceso IdentParImpar
+	Definir num Como Entero
+	Definir residuo Como Entero
+	Imprimir "Bienvenido, Digite el valor a verificar:"
+	Leer num
+	Si num%2 == 0 Entonces
+		Imprimir "El número ",num," es Par."
+	SiNo
+		Imprimir "El número ",num, " es Impar."
+	Fin Si
+FinProceso
+```
