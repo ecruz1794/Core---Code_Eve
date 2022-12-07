@@ -49,9 +49,8 @@ Core - Code Bootcamp | Eve Workspace
 
 [2. Special Number](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#special-number)
 
-[3. Simple calculator with Switch]()
+[3. Simple calculator with Switch](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#calculator-switch)
 
-[3. Multi Option Program]()
 ----------------------------------------------
 
 <h1>Semana 01</h1>
@@ -426,5 +425,36 @@ Proceso specialNumber
 			Imprimir "Just a regular number"
 		Fin Si
 	Fin Si
+FinProceso
+```
+
+-------------------------------------
+
+<h3>Calculator Switch</h3>
+
+```
+Proceso CalculadoraSwitch
+	Definir a Como Entero
+	Definir b Como Entero
+	Definir op Como Caracter
+	Imprimir "--------- Calculator ----------"
+	Imprimir "Ingrese un número"
+	Leer a
+	Imprimir "Ingrese el segundo número"
+	Leer b
+	Imprimir "Ingrese el tipo de operación a realizar +,-,*,/: "
+	Leer op
+	Segun op Hacer
+		"+":
+			Imprimir "El resultado es " a+b
+		"-":
+			Imprimir "El resultado es " a-b
+		"*":
+			Imprimir "El resultado es " a*b
+		"/":
+			Imprimir "El resultado es " a/b
+		De Otro Modo:
+			Imprimir "Operación inválida"
+	Fin Segun
 FinProceso
 ```
