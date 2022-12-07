@@ -35,11 +35,21 @@ Core - Code Bootcamp | Eve Workspace
 
 [7. Register form](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#register-form)
 
-[7. Truth Tables](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#truth-tables)
+[8. Truth Tables](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#truth-tables)
 
-[7. Boolean results](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#boolean-results)
+[9. Boolean results](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#boolean-results)
 
-[7. Identify odd and even numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#identify-odd-and-even-numbers)
+[10. Identify odd and even numbers](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#identify-odd-and-even-numbers)
+
+-------------------------------------------------
+
+<h2>Week 03</h2>
+
+[1. Simple Calculator](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#simple-calculator)
+
+[2. Cereal vs Milk]()
+
+[3. Print my name]()
 
 ----------------------------------------------
 
@@ -356,5 +366,43 @@ Proceso IdentParImpar
 	SiNo
 		Imprimir "El número ",num, " es Impar."
 	Fin Si
+FinProceso
+```
+
+-----------------------------------------
+
+<h3>Simple Calculator</h3>
+
+```
+Proceso calculadoraSimple
+	Definir a Como Entero
+	Definir b Como Entero
+	Definir op Como Caracter
+	Definir res Como Entero
+	Imprimir "*************	 	Calculadora 	*************"
+	Imprimir "Ingrese el primer número: "
+	Leer a
+	Imprimir "Ingrese el segundo número: "
+	Leer b
+	Imprimir "Ingrese el tipo de operación a realizar +,-,*,/: "
+	Leer op
+	Si op == "+" Entonces
+		res<-a+b
+	SiNo
+		Si op == "-" Entonces
+			res<-a-b
+		SiNo
+			Si op == "*" Entonces
+				res<-a*b
+			SiNo
+				Si op == "/" Entonces
+					res<-a*b
+				SiNo
+					Imprimir "Operación Inválida"
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+	Imprimir "El resultado de la operación es: " res
 FinProceso
 ```
