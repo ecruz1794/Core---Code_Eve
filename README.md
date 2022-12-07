@@ -45,11 +45,15 @@ Core - Code Bootcamp | Eve Workspace
 
 <h2>Week 03</h2>
 
-[1. Simple Calculator](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#simple-calculator)
+[1. Simple Calculator](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#simple-calculator)
 
-[2. Special Number](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#special-number)
+[2. Special Number](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#special-number)
 
-[3. Simple calculator with Switch](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#calculator-switch)
+[3. Simple calculator with Switch](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#calculator-switch)
+
+[4. Multi Option](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#multi-option-program)
+
+[5. algo]()
 
 ----------------------------------------------
 
