@@ -466,3 +466,53 @@ FinProceso
 -------------------------------------
 
 <h3>Multi Option Program</h3>
+
+```
+Proceso MultiOpc
+	Definir opc Como Entero
+	Definir a Como Entero
+	Definir b Como Entero
+	Definir var Como Caracter
+	Imprimir "------------ Multi Opción -------------"
+	Imprimir "Ingrese la opción que desea"
+	Imprimir "1. Sumar 2 números"
+	Imprimir "2. Imprimir día de la semana"
+	Imprimir "3. Calcular la longitud del texto"
+	Leer opc
+	Segun opc Hacer
+		1:
+			Imprimir "Digite el primer número"
+			Leer a
+			Imprimir "Digite el segundo número"
+			leer b
+			Imprimir a+b
+		2:
+			Imprimir "Ingrese el número del día de la semana (1-7)"
+			Leer a
+			Segun a Hacer
+				1:
+					Imprimir "Lunes"
+				2:
+					Imprimir "Martes"
+				3:
+					Imprimir "Miércoles"
+				4:
+					Imprimir "Jueves"
+				5:
+					Imprimir "Viernes"
+				6:
+					Imprimir "Sábado"
+				7:
+					Imprimir "Domingo"
+				De Otro Modo:
+					Imprimir "Opción inválida"
+			Fin Segun
+		3:
+			Imprimir "Ingrese el texto"
+			leer var
+			Imprimir "La longitud del texto es " Longitud(var)
+		De Otro Modo:
+			Imprimir "Opción inválida"
+	Fin Segun
+FinProceso
+```
