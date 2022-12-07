@@ -47,10 +47,11 @@ Core - Code Bootcamp | Eve Workspace
 
 [1. Simple Calculator](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#simple-calculator)
 
-[2. Cereal vs Milk]()
+[2. Special Number](https://github.com/ecruz1794/Core-Code_Eve/edit/main/README.md#special-number)
 
-[3. Print my name]()
+[3. Simple calculator with Switch]()
 
+[3. Multi Option Program]()
 ----------------------------------------------
 
 <h1>Semana 01</h1>
@@ -404,5 +405,26 @@ Proceso calculadoraSimple
 		Fin Si
 	Fin Si
 	Imprimir "El resultado de la operación es: " res
+FinProceso
+```
+
+-----------------------------------------
+
+<h3>Special Number</h3>
+
+```
+Proceso specialNumber
+	Definir n  Como Entero
+	Imprimir "Please put the number to evaluate: "
+	Leer n
+	Si n == 100 Entonces
+		Imprimir "This is a special number"
+	SiNo
+		Si (n < 1000) & (n % 10 == 0) Entonces
+			Imprimir "Almost special number"
+		SiNo
+			Imprimir "Just a regular number"
+		Fin Si
+	Fin Si
 FinProceso
 ```
