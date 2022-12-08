@@ -53,6 +53,10 @@ Core - Code Bootcamp | Eve Workspace
 
 [4. Multi Option](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#multi-option-program)
 
+[5. Multiplication Tables]()
+
+[5. algo]()
+
 [5. algo]()
 
 ----------------------------------------------
@@ -516,3 +520,11 @@ Proceso MultiOpc
 	Fin Segun
 FinProceso
 ```
+
+-------------------------------------
+
+<h3>Multiplication Tables</h3>
+
+-------------------------------------
+
+<h3>Simple calculator with Do While</h3>
