@@ -53,11 +53,11 @@ Core - Code Bootcamp | Eve Workspace
 
 [4. Multi Option](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#multi-option-program)
 
-[5. Multiplication Tables]()
+[5. Multiplication Tables](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#multiplication-tables)
 
-[5. algo]()
+[6. Simple calculator with Do While](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#simple-calculator-with-do-while)
 
-[5. algo]()
+[7. algo]()
 
 ----------------------------------------------
 
@@ -524,6 +524,7 @@ FinProceso
 -------------------------------------
 
 <h3>Multiplication Tables</h3>
+
 ```
 Proceso MultiplicationTables
 	Definir tab Como Entero
@@ -539,6 +540,7 @@ Proceso MultiplicationTables
 	FinMientras
 FinProceso
 ```
+
 -------------------------------------
 
 <h3>Simple calculator with Do While</h3>
