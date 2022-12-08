@@ -544,3 +544,39 @@ FinProceso
 -------------------------------------
 
 <h3>Simple calculator with Do While</h3>
+
+```
+Proceso Calculadora
+	Definir num1, num2 como Entero
+	Definir i, op Como Caracter
+	Imprimir "*** Calculadora Simple ****"
+	i<-"Si"
+	Mientras i = "Si" | i = "si" Hacer
+		Imprimir "Favor digitar el primer valor: "
+		Leer num1
+		Imprimir "Favor digitar el segundo valor: "
+		Leer num2
+		Imprimir "Ingrese la operación que desea: +, -, *, / "
+		Leer op
+		Segun op Hacer
+			"+":
+				Imprimir "Operación: " num1 " + " num2 " = " num1+num2
+			"-":
+				Imprimir "Operación: " num1 " - " num2 " = " num1-num2
+
+			"*":
+				Imprimir "Operación: " num1 " * " num2 " = " num1*num2
+
+			"/":
+				Imprimir "Operación: " num1 " / " num2 " = " num1/num2
+			De Otro Modo:
+				Imprimir "Operación Inválida"
+		Fin Segun
+		Imprimir "Desea realizar otra operación: Si/No"
+		Leer i
+	FinMientras
+FinProceso
+```
+
+------------------------------------
+
