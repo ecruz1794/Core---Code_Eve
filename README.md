@@ -524,7 +524,21 @@ FinProceso
 -------------------------------------
 
 <h3>Multiplication Tables</h3>
-
+```
+Proceso MultiplicationTables
+	Definir tab Como Entero
+	Definir i Como Entero
+	Imprimir "*** Multiplication Tables ****"
+	Imprimir "Ingrese la tabla que desea calcular: "
+	Leer tab
+	i<-1
+	Mientras i <= 12 Hacer
+		Imprimir " Tabla Multiplicar *** " tab " ***"
+		Imprimir tab " x " i " = " tab*i
+		i<-i+1
+	FinMientras
+FinProceso
+```
 -------------------------------------
 
 <h3>Simple calculator with Do While</h3>
