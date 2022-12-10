@@ -57,7 +57,11 @@ Core - Code Bootcamp | Eve Workspace
 
 [6. Simple calculator with Do While](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#simple-calculator-with-do-while)
 
-[7. algo]()
+[7. Multiplication Tables with For]()
+
+[8. Ascending and Descending Numbers]()
+
+[9. Greetings]()
 
 ----------------------------------------------
 
