@@ -580,3 +580,17 @@ FinProceso
 
 ------------------------------------
 
+<h3>Multiplication Tables with For</h3>
+
+```
+Proceso MultiplicationTablesFor
+	Definir num, i Como Entero
+	Imprimir ' ******** Tablas Multiplicar *******'
+	Imprimir 'Ingrese la tabla a calcular:'
+	Leer num
+	Imprimir 'Tabla del ' + ConvertirATexto(num)
+	Para i <- 1 Hasta 12 Con Paso 1 Hacer
+		Imprimir ConvertirATexto(num) ' *  ' + ConvertirATexto(i) + ' = ' ConvertirATexto(num * i) 
+	Fin Para
+FinProceso
+```
