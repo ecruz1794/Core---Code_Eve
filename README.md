@@ -598,3 +598,65 @@ Proceso MultiplicationTablesFor
 	Fin Para
 FinProceso
 ```
+
+------------------------------------
+
+<h3>Ascending and Descending Numbers</h3>
+
+```
+Proceso AscendingDescendingNumbers
+	Definir num, n, i como Entero 
+	Imprimir "********* Ascending and Descending Numbers **********"
+	Imprimir "Ingrese un valor"
+	Leer num
+	Imprimir "Operaciónes disponibles: "
+	Imprimir "1. Imprimir en orden ascendente"
+	Imprimir "2. Imprimir en orden descendente"
+	Imprimir "Digite la operación correspondiente"
+	Leer i
+	Segun i Hacer
+		1:
+			Para n <- 0 Hasta num Con Paso 1 Hacer
+				Imprimir n
+			Fin Para
+		2:
+			Para n <- 0 Hasta num Con Paso 1 Hacer
+				Imprimir num-n
+			Fin Para
+		De Otro Modo:
+			Imprimir "Operación ingresada inválida"
+	Fin Segun
+FinProceso
+```
+
+------------------------------------
+
+<h3>Greetings</h3>
+
+```
+Proceso Saludos
+	Imprimir "******** Saludos ********"
+		Definir continue Como Cadena
+		Definir saludo, hora Como Entero
+		saludo <- 0
+		continue <- "Si"
+		Mientras continue == "Si" | continue == "si" Hacer
+			Imprimir "Ingrese la hora (0-23):"
+			Leer hora
+			Si hora <= 12 Entonces
+				Imprimir "Buenas días!, Es temprano"
+			SiNo 
+				Si hora <= 18 Entonces
+					Imprimir 'Buenas tardes!, Ya casi anochese'
+				SiNo
+					Imprimir 'Buenas noches!, Ya se ocultó el sol'
+				Fin Si
+			Fin Si
+			
+			saludo <- saludo + 1
+			Imprimir 'Desea continuar ? Si/No'
+			Leer continue
+		Fin Mientras
+		Imprimir 'Conteo total de saludos: ' + ConvertirATexto(saludo)
+FinProceso
+```
