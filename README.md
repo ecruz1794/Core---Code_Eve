@@ -63,9 +63,11 @@ Core - Code Bootcamp | Eve Workspace
 
 [9. Greetings](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#greetings)
 
-[10. Average Sales and Commission](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#average-sales-and-commission)
+<h2>Week 04</h2>
 
-[11. Greetings]()
+[1. Average Sales and Commission](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#average-sales-and-commission)
+
+[2. Even or Odd](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#even-or-odd)
 
 
 
@@ -669,7 +671,7 @@ FinProceso
 
 ------------------------------------
 
-<h3>Average sales and commission</h3>
+<h3>Average Sales and Commission</h3>
 
 ```
 Proceso SalesCommission
@@ -697,7 +699,7 @@ FinProceso
 
 ------------------------------------
 
-<h3>Even or odd</h3>
+<h3>Even or Odd</h3>
 
 ```
 Proceso EvenOddNumber
