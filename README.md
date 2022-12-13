@@ -660,3 +660,31 @@ Proceso Saludos
 		Imprimir 'Conteo total de saludos: ' + ConvertirATexto(saludo)
 FinProceso
 ```
+
+------------------------------------
+
+<h3>Average sales and commission</h3>
+
+```
+Proceso SalesCommission
+	Definir numV, venta, ventaTotal, i Como Entero
+	Definir promedioVenta Como Real
+	Imprimir "****** Calculadora Ventas ******"
+	Imprimir "Ingrese el número de ventas: "
+	Leer numV
+	ventaTotal = 0
+	Para i<-1 Hasta numV Con Paso 1 Hacer
+		Imprimir "Ingrese el costo de la venta número " + ConvertirATexto(i)
+		Leer venta
+		ventaTotal<-ventaTotal+venta
+	Fin Para
+	promedioVenta <- ventaTotal/numV
+	Imprimir "Venta total es de: " ventaTotal
+	Imprimir "Promedio de venta es: " promedioVenta
+	Si numV>5 Entonces
+		Imprimir "Comisión recibida es de: " ventaTotal*0.15
+	SiNo
+		Imprimir "Comisión recibida es de: " ventaTotal*0.10
+	Fin Si
+FinProceso
+```
