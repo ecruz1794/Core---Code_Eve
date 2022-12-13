@@ -694,3 +694,36 @@ Proceso SalesCommission
 	Fin Si
 FinProceso
 ```
+
+------------------------------------
+
+<h3>Even or odd</h3>
+
+```
+Proceso EvenOddNumber
+	Definir num, i Como Entero
+	Definir nPar Como Real
+	Repetir
+			Imprimir "Ingrese el número a evaluar: "
+			Leer  num
+			Si num < 1  | num > 50 Entonces
+				Imprimir "Valor inválido"
+			Fin Si
+	Hasta Que num > 1  | num < 50
+	
+	nPar <- num%2
+	Si nPar == 0 Entonces
+		Para i<-1 Hasta num Con Paso 1 Hacer
+			Si i%2 == 0 Entonces
+				Imprimir i
+			Fin Si
+		Fin Para
+	SiNo
+		Para i<-1 Hasta num Con Paso 1 Hacer
+			Si i%2 <> 0 Entonces
+				Imprimir i
+			Fin Si
+		Fin Para
+	Fin Si
+FinProceso
+```
