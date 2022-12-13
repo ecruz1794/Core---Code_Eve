@@ -63,6 +63,12 @@ Core - Code Bootcamp | Eve Workspace
 
 [9. Greetings](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#greetings)
 
+[10. Average Sales and Commission](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#average-sales-and-commission)
+
+[11. Greetings]()
+
+
+
 ----------------------------------------------
 
 <h1>Semana 01</h1>
