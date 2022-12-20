@@ -861,8 +861,7 @@ FinAlgoritmo
 <h3> Structure of a function </h3>
 
 ```
-
-
+Se estudió las formas y estructuras de la funciones, como ingresan variables y sus retornos, llamados, etc.
 ```
 
 ----------------------------------------------
