@@ -69,7 +69,21 @@ Core - Code Bootcamp | Eve Workspace
 
 [2. Even or Odd](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#even-or-odd)
 
+[3. Predefined functions]()
 
+[4. Full name]()
+
+[5. Throw dice]()
+
+[6. Distance to zero]()
+
+[7. Toss coin]()
+
+[8. Structure of a function]()
+
+[9. Total price]()
+
+[10. Reverse direction and size]()
 
 ----------------------------------------------
 
