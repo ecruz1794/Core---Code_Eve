@@ -751,3 +751,103 @@ Proceso EvenOddNumber
 	Fin Si
 FinProceso
 ```
+
+------------------------------------------------
+
+<h3>Predefined functions</h3>
+
+```
+Estudio de las funciones predefinidas en PSeint, como longitud() calor absoluto entre otras.
+
+```
+
+----------------------------------------------
+
+<h3>Full name</h3>
+
+```
+Proceso NombreCompleto
+	Definir nombre, apellido, nCorregido, aCorregido Como Caracter
+	Escribir "Nombre:"
+	leer nombre
+	Escribir "Apellido:"
+	leer apellido
+	nCorregido = Mayusculas(Subcadena(nombre,0,0)) + Minusculas(Subcadena(nombre,1,Longitud(nombre)-1))
+	aCorregido = Mayusculas(Subcadena(apellido,0,0)) + Minusculas(Subcadena(apellido,1,Longitud(apellido)-1))
+	Imprimir nCorregido + " " + aCorregido
+FinProceso
+```
+
+----------------------------------------------
+
+<h3> Throw dice </h3>
+
+```
+
+
+```
+
+----------------------------------------------
+
+<h3> Distance to zero </h3>
+
+```
+
+
+```
+
+
+
+----------------------------------------------
+
+<h3> Toss coin </h3>
+
+```
+
+
+```
+
+----------------------------------------------
+
+<h3> Structure of a function </h3>
+
+```
+
+
+```
+
+----------------------------------------------
+
+<h3> Total price </h3>
+
+```
+
+
+```
+
+----------------------------------------------
+
+<h3> Reverse direction and size </h3>
+
+```
+
+
+```
+
+----------------------------------------------
+
+<h3> </h3>
+
+```
+
+
+```
+
+----------------------------------------------
+
+<h3> </h3>
+
+```
+
+
+```
