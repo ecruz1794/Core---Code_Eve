@@ -783,8 +783,18 @@ FinProceso
 <h3> Throw dice </h3>
 
 ```
-
-
+Algoritmo AleatorioDados
+	Definir dado1, dado2, i Como Entero
+	Para i = 1 Hasta 10 Con Paso 1 Hacer
+		dado1 = Aleatorio(1,6)
+		dado2 = Aleatorio(1,6)
+		SI dado1 = dado2 Entonces
+			Imprimir "Dado 1 " + ConvertirATexto(dado1) + " Dado 2: " + ConvertirATexto(dado2) + " Son iguales"
+		SiNo
+			Imprimir "Dado 1 " + ConvertirATexto(dado1) + " Dado 2: " + ConvertirATexto(dado2)
+		FinSi
+	FinPara
+FinAlgoritmo
 ```
 
 ----------------------------------------------
@@ -792,8 +802,19 @@ FinProceso
 <h3> Distance to zero </h3>
 
 ```
-
-
+Algoritmo lejanoCero
+	Definir masGrande, i, num Como Real
+	Escribir "Ingrese un valor"
+	leer masGrande
+	Para i=1 Hasta 4 Con Paso 1 Hacer
+		Escribir "Ingrese un valor"
+		leer num
+		SI Abs(num) > Abs(masGrande) Entonces
+			masGrande = num
+		FinSi
+	FinPara
+	Imprimir "El valor más lejano a 0 ingresado es: " + ConvertirATexto(Trunc(masGrande))
+FinAlgoritmo
 ```
 
 
@@ -803,8 +824,36 @@ FinProceso
 <h3> Toss coin </h3>
 
 ```
-
-
+Algoritmo azarDinero
+	Definir jugador1, jugador2 Como Caracter
+	Definir cantidad1, cantidad2 Como Real
+	Imprimir "Ingrese el primer jugador: "
+	leer jugador1
+	Imprimir "Ingrese la cantidad que va a usar el primer jugador:"
+	leer cantidad1
+	Imprimir  "Ingrese el segundo jugador: "
+	leer jugador2
+	Imprimir "Ingrese la cantidad que va a usar el segundo jugador:"
+	leer cantidad2
+	
+	SI cantidad1<=0 | cantidad2 <=0 Entonces
+		SI cantidad1<=0 & cantidad2 <=0 Entonces
+			Imprimir "Valores ingresados por ambos jugadores es inválido,se cancela el juego"
+		SiNo
+			SI cantidad1<=0 Entonces
+				Imprimir "Monto Ingresado por el jugador " + jugador1 + " Es inválido, gana automáticamente: " + Mayusculas(jugador2) + " 0."
+			SiNo
+				Imprimir "Monto Ingresado por el jugador " + jugador2 + " Es inválido, gana automáticamente: " + Mayusculas(jugador1) + " 0."
+			FinSi
+		FinSi
+	SiNo
+		SI Aleatorio(1,2) = 1 Entonces
+			Imprimir "Gana el jugador " + Mayusculas(jugador1) + " la cantidad: " + ConvertirATexto(cantidad2)
+		SiNo
+			Imprimir "Gana el jugador " + Mayusculas(jugador2) + " la cantidad: " + ConvertirATexto(cantidad1)
+		FinSi
+	FinSi
+FinAlgoritmo
 ```
 
 ----------------------------------------------
