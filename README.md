@@ -69,21 +69,21 @@ Core - Code Bootcamp | Eve Workspace
 
 [2. Even or Odd](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#even-or-odd)
 
-[3. Predefined functions]()
+[3. Predefined functions](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#predefined-functions)
 
-[4. Full name]()
+[4. Full name](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#full-name)
 
-[5. Throw dice]()
+[5. Throw dice](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#-throw-dice-)
 
-[6. Distance to zero]()
+[6. Distance to zero](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#-distance-to-zero-)
 
-[7. Toss coin]()
+[7. Toss coin](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#-toss-coin-)
 
-[8. Structure of a function]()
+[8. Structure of a function](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#-structure-of-a-function-)
 
-[9. Total price]()
+[9. Total price](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#-total-price-)
 
-[10. Reverse direction and size]()
+[10. Reverse direction and size](https://github.com/ecruz1794/Core-Code_Eve/blob/main/README.md#-reverse-direction-and-size-)
 
 ----------------------------------------------
 
